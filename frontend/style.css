@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+form > * {
+  width: 100%;
+  margin: 10px 0;
+  padding: 7px;
+  box-sizing: border-box;
+}
+
+p {
+  text-align: center;
+  font-size: 25px;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: tomato;
+}
